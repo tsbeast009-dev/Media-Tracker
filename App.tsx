@@ -6,19 +6,10 @@ import MediaList from './components/MediaList';
 import { MediaCategory, MediaItemType, MediaStatus, CATEGORIES } from './types';
 
 const initialData: Record<MediaCategory, MediaItemType[]> = {
-  anime: [
-    { id: 1, title: 'Jujutsu Kaisen', status: MediaStatus.Watching, notes: 'Great animation and fight scenes.' },
-    { id: 2, title: 'Attack on Titan', status: MediaStatus.Completed, notes: 'The ending was controversial, but the journey was amazing.' },
-    { id: 3, title: 'Vinland Saga', status: MediaStatus.OnHold, notes: '' },
-    { id: 6, title: 'Chainsaw Man', status: MediaStatus.WillWatch, notes: 'Heard good things about the animation.' },
-  ],
-  movies: [
-      { id: 4, title: 'Your Name', status: MediaStatus.Completed, notes: 'Beautiful visuals and a touching story.' },
-  ],
+  anime: [],
+  movies: [],
   music: [],
-  webSeries: [
-       { id: 5, title: 'Arcane', status: MediaStatus.Watching, notes: 'Stunning art style.' },
-  ],
+  webSeries: [],
 };
 
 const AnimeSilhouette: React.FC = () => (

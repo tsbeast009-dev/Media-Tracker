@@ -97,7 +97,7 @@ const MediaItem: React.FC<MediaItemProps> = ({ item, onUpdateStatus, onUpdateNot
               isActive={item.status === MediaStatus.Watching}
               className="text-blue-600 dark:text-blue-400"
               >
-              Watching
+              Watch
              </StatusButton>
              <StatusButton 
               onClick={() => onUpdateStatus(item.id, MediaStatus.Completed)}
